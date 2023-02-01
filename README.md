@@ -30,18 +30,20 @@ This application contains the back-end logic for an e-commerce site:
 Designed for developers or small business owners. Prerequisite technologies include CLI, MySql server ( accountr & username information )
 
 ## Instructions
-1. Clone the main project, then open the cloned file.
-2. Make sure you are in the main project folder using the 'cd' command.
-3. Open command prompt and run: npm install
-4. Create a `.env` in the root directory
-5. Create the following three variables in the `.env` file:
+1. Clone the main project, then open the cloned file in a code editor
+2. Open command prompt and run: npm install
+3. Create a `.env` in the root directory
+4. Enter the following three variables in the `.env` file:
 - `DB_NAME=ecommerce_db`
 - `DB_USER=`[MySQL username]
 - `DB_PW=`[MySQL password]
-6. Open: `MySQL` CLI.
-7. Run: `source db/schema.sql` to create the database.
-8. Run: `npm run seeds` to seed the databse.
-9. Run: `npm start`
+
+
+1. Open: `MySQL` CLI.
+2. Copy and paste the code from connection.js into MYSQL workbench and then select query run.
+   
+3. Run: `npm run seeds` to seed the databse.
+4. Run: `npm start`
 ## Contribution 
 Created by Eileen Ma 
 
